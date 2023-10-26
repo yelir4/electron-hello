@@ -1,0 +1,25 @@
+https://www.electronjs.org/docs/latest/tutorial/quick-start
+
+creating an app with electron
+
+start with npm init
+then npm i --save-dev electron
+
+we then would say something like `npm start` to whit,
+if at this temporal point we had not created `main.tsx` we would be at a loss
+
+# npm init electron-app@latest my-new-app -- --template=webpack-typescript
+# then npm start
+
+# npm i -d @electron-forge/plugin-vite
+
+
+
+adding electron forge to distribute our newly created app
+`npm i -D @electron-forge/cli`
+`npx electron-forge import`
+
+creating the distributable with forge's `make` command
+`npm run make`
+
+then that goes to the `out` folder

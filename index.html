@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="default src 'self; script-src 'self'">
+        <title>hello world</title>
+    </head>
+
+    <body>
+        <p>
+            Hello world.
+            <br />node.js version <span id="node-version"></span>
+            <br />chromium version <span id="chrome-version"></span>
+            <br />electron version <span id="electron-version"></span>
+        </p>
+
+
+        <!-- add scripts to renderer process such as a react `App.tsx` -->
+        <script src="Demo2.tsx"></script>
+    </body>
+</html>
